@@ -1,0 +1,45 @@
+@media (max-width:991px) {
+
+    /*####### start nav #######*/
+    .navbar-nav .nav-item .nav-link::after {
+        bottom: -1px;
+    }
+
+    .navbar-nav .bttn {
+        margin-top: 20px;
+    }
+
+    .navbar .container .navbar-nav {
+        gap: 10px;
+    }
+
+    /*####### start about #######*/
+    .about .container>.row {
+        width: 100%;
+    }
+
+    .about .numbers .count {
+        border: none !important;
+        padding-top: 1px !important;
+        padding-bottom: 20px !important;
+    }
+
+    /*####### end about #######*/
+
+
+    /*####### start resume #######*/
+    .resume .resume-content .row {
+        gap: 30px !important;
+    }
+
+    /*####### end resume #######*/
+
+    /*##### start footer #####*/
+    footer .row {
+        gap: 15px;
+    }
+
+    /*##### end footer #####*/
+
+
+}
